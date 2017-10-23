@@ -15,9 +15,7 @@ class FCBaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("fsafsafaf")
-        print("fsafsafaf")
-        print("fsafsafaf")
+       print("我曹 这是什么啊")
             setupUI()
     
     }
@@ -45,6 +43,7 @@ extension FCBaseViewController:UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cellid")
         cell.textLabel?.text=String(indexPath.row)
+        
         return cell
         
     }
