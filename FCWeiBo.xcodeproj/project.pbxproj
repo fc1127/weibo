@@ -38,6 +38,7 @@
 		6C314BC41F8F436100CFBE03 /* toolbar_compose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C314BB21F8F436100CFBE03 /* toolbar_compose@3x.png */; };
 		6C314BC91F8F438300CFBE03 /* UIColor+_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */; };
 		6CCF8B431F9DD552004FB86C /* FCResposeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF8B421F9DD552004FB86C /* FCResposeData.swift */; };
+		6CCF8B451F9DE0A1004FB86C /* FCHomeM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF8B441F9DE0A1004FB86C /* FCHomeM.swift */; };
 		6CF100801F8F9F4A00B9F061 /* KitTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */; };
 		6CF100841F8FA15A00B9F061 /* UIButton+FCUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF100831F8FA15A00B9F061 /* UIButton+FCUIButton.m */; };
 		6CF100871F8FA4F700B9F061 /* tabbar_compose_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF100851F8FA4F700B9F061 /* tabbar_compose_icon_add@2x.png */; };
@@ -101,6 +102,7 @@
 		6C314BC71F8F438300CFBE03 /* UIColor+_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+_Hex.h"; sourceTree = "<group>"; };
 		6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+_Hex.m"; sourceTree = "<group>"; };
 		6CCF8B421F9DD552004FB86C /* FCResposeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCResposeData.swift; sourceTree = "<group>"; };
+		6CCF8B441F9DE0A1004FB86C /* FCHomeM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCHomeM.swift; sourceTree = "<group>"; };
 		6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitTools.swift; sourceTree = "<group>"; };
 		6CF100821F8FA15A00B9F061 /* UIButton+FCUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FCUIButton.h"; sourceTree = "<group>"; };
 		6CF100831F8FA15A00B9F061 /* UIButton+FCUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FCUIButton.m"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		6C314B861F8E634500CFBE03 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6CCF8B441F9DE0A1004FB86C /* FCHomeM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				6C314B941F8F149800CFBE03 /* FCBaseViewController.swift in Sources */,
 				6CF100801F8F9F4A00B9F061 /* KitTools.swift in Sources */,
 				6C314B8E1F8E637A00CFBE03 /* FCTarBarController.swift in Sources */,
+				6CCF8B451F9DE0A1004FB86C /* FCHomeM.swift in Sources */,
 				6C314B921F8E652600CFBE03 /* FCNavigationController.swift in Sources */,
 				6CF100841F8FA15A00B9F061 /* UIButton+FCUIButton.m in Sources */,
 				6C314BC91F8F438300CFBE03 /* UIColor+_Hex.m in Sources */,

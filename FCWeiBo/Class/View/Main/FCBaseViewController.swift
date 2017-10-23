@@ -11,14 +11,16 @@ import UIKit
 class FCBaseViewController: UIViewController {
 
     
-    var tableview = UITableView()
-    let refresh = UIRefreshControl()
+    var tableview : UITableView?
+    var refresh : UIRefreshControl?
 
     override func viewDidLoad() {
         super.viewDidLoad()
             setupUI()
+            loadData()
         
     }
+    
     
 }
 
@@ -29,14 +31,15 @@ extension FCBaseViewController{
         automaticallyAdjustsScrollViewInsets=false
         tableview=UITableView(frame: view.bounds, style: .plain)
        
-        tableview.delegate=self
-        tableview.dataSource=self
+        tableview!.delegate=self
+        tableview!.dataSource=self
 //    tableview.contentInset=UIEdgeInsetsMake(navigationController?.navigationBar.bounds.height ?? 44, 0, tabBarController?.tabBar.bounds.height ?? 49, 0)
-        view.addSubview(tableview)
+        view.addSubview(tableview!)
         
         //    刷新控件
-        refresh.addTarget(self, action: #selector(loadNewData), for: .valueChanged)
-        tableview.addSubview(refresh)
+        refresh=UIRefreshControl()
+        refresh?.addTarget(self, action: #selector(loadData), for: .valueChanged)
+        tableview?.addSubview(refresh!)
     }
        
 }
@@ -56,9 +59,9 @@ extension FCBaseViewController:UITableViewDataSource,UITableViewDelegate{
 }
 extension FCBaseViewController {
 //    加载数据
-    func loadNewData(){
+    func loadData(){
     }
-
+    
     
     
 }

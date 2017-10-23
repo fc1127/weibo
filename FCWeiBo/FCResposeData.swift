@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//delete delete delete delete delete delete delete delete deletev
 class FCResposeData: NSObject {
    
     let ceshiArr = [1,1,1,1,2]
