@@ -12,41 +12,54 @@ class FCBaseViewController: UIViewController {
 
     
     var tableview = UITableView()
-    
+    let refresh = UIRefreshControl()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-       print("我曹 这是什么啊")
             setupUI()
-    
+        
     }
     
 }
 
 extension FCBaseViewController{
 
-    func setupUI(){
+   fileprivate func setupUI(){
 //        调整视图
-
+        automaticallyAdjustsScrollViewInsets=false
+        tableview=UITableView(frame: view.bounds, style: .plain)
+       
+        tableview.delegate=self
+        tableview.dataSource=self
+//    tableview.contentInset=UIEdgeInsetsMake(navigationController?.navigationBar.bounds.height ?? 44, 0, tabBarController?.tabBar.bounds.height ?? 49, 0)
         view.addSubview(tableview)
+        
+        //    刷新控件
+        refresh.addTarget(self, action: #selector(loadNewData), for: .valueChanged)
+        tableview.addSubview(refresh)
     }
+       
 }
 extension FCBaseViewController:UITableViewDataSource,UITableViewDelegate{
 
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return 0
     
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "cellid")
-        cell.textLabel?.text=String(indexPath.row)
-        
-        return cell
-        
+        return UITableViewCell()
     }
+    
+    
+    
+}
+extension FCBaseViewController {
+//    加载数据
+    func loadNewData(){
+    }
+
+    
     
 }
 

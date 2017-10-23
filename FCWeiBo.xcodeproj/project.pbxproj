@@ -37,6 +37,7 @@
 		6C314BC31F8F436100CFBE03 /* toolbar_compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C314BB11F8F436100CFBE03 /* toolbar_compose@2x.png */; };
 		6C314BC41F8F436100CFBE03 /* toolbar_compose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C314BB21F8F436100CFBE03 /* toolbar_compose@3x.png */; };
 		6C314BC91F8F438300CFBE03 /* UIColor+_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */; };
+		6CCF8B431F9DD552004FB86C /* FCResposeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF8B421F9DD552004FB86C /* FCResposeData.swift */; };
 		6CF100801F8F9F4A00B9F061 /* KitTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */; };
 		6CF100841F8FA15A00B9F061 /* UIButton+FCUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF100831F8FA15A00B9F061 /* UIButton+FCUIButton.m */; };
 		6CF100871F8FA4F700B9F061 /* tabbar_compose_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF100851F8FA4F700B9F061 /* tabbar_compose_icon_add@2x.png */; };
@@ -99,6 +100,7 @@
 		6C314BC61F8F438200CFBE03 /* FCWeiBo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FCWeiBo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6C314BC71F8F438300CFBE03 /* UIColor+_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+_Hex.h"; sourceTree = "<group>"; };
 		6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+_Hex.m"; sourceTree = "<group>"; };
+		6CCF8B421F9DD552004FB86C /* FCResposeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCResposeData.swift; sourceTree = "<group>"; };
 		6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitTools.swift; sourceTree = "<group>"; };
 		6CF100821F8FA15A00B9F061 /* UIButton+FCUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FCUIButton.h"; sourceTree = "<group>"; };
 		6CF100831F8FA15A00B9F061 /* UIButton+FCUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FCUIButton.m"; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */,
 				6CF100821F8FA15A00B9F061 /* UIButton+FCUIButton.h */,
 				6CF100831F8FA15A00B9F061 /* UIButton+FCUIButton.m */,
+				6CCF8B421F9DD552004FB86C /* FCResposeData.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				6CF100841F8FA15A00B9F061 /* UIButton+FCUIButton.m in Sources */,
 				6C314BC91F8F438300CFBE03 /* UIColor+_Hex.m in Sources */,
 				6C314B581F8E625200CFBE03 /* AppDelegate.swift in Sources */,
+				6CCF8B431F9DD552004FB86C /* FCResposeData.swift in Sources */,
 				6C314B9D1F8F2ACF00CFBE03 /* FCMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
