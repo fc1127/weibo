@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FCHomeM"
+provides-nominal:
+- "C7FCWeiBo7FCHomeM"
+provides-member:
+- ["C7FCWeiBo7FCHomeM", ""]
+provides-dynamic-lookup:
+- "age"
+- "name"
+- "title"
+- "setValue"
+depends-top-level:
+- "String"
+- "NSObject"
+- "FCHomeM"
+depends-member:
+- ["Ps9AnyObject", "age"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "age"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "setValue"]
+- ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "age"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "age"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "age"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "title"]
+- ["Ps9Equatable", ""]
+- ["C7FCWeiBo7FCHomeM", "String"]
+- ["C7FCWeiBo7FCHomeM", "age"]
+- ["C7FCWeiBo7FCHomeM", "deinit"]
+- ["C7FCWeiBo7FCHomeM", "init"]
+- ["C7FCWeiBo7FCHomeM", "name"]
+- ["C7FCWeiBo7FCHomeM", "setValue"]
+- ["C7FCWeiBo7FCHomeM", "title"]
+- ["Ps8Hashable", "age"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "title"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "age"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "age"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["Ps9_Hashable", "age"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "setValue"]
+- ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C7FCWeiBo7FCHomeM"
+- "Ps8Hashable"
+- "Si"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/FCWeiBo-Bridging-Header.h"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIColor+_Hex.h"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIButton+FCUIButton.h"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cd3cd1f5ae67feb49739123378c006af"

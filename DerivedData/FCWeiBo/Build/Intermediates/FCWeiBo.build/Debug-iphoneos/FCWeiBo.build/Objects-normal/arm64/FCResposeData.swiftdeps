@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FCResposeData"
+provides-nominal:
+- "C7FCWeiBo13FCResposeData"
+provides-member:
+- ["C7FCWeiBo13FCResposeData", ""]
+provides-dynamic-lookup:
+- "ceshiArr"
+- "LoadData"
+depends-top-level:
+- "NSObject"
+- "Array"
+- "FCResposeData"
+depends-member:
+- ["Ps9AnyObject", "LoadData"]
+- ["Ps9AnyObject", "ceshiArr"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- ["Ps7CVarArg", "Element"]
+- ["Ps7CVarArg", "LoadData"]
+- ["Ps7CVarArg", "ceshiArr"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Collection", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "LoadData"]
+- ["Ps28CustomDebugStringConvertible", "ceshiArr"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps17CustomReflectable", "Element"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "LoadData"]
+- ["Ps23CustomStringConvertible", "ceshiArr"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "LoadData"]
+- ["Ps9Equatable", "ceshiArr"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["C7FCWeiBo13FCResposeData", "LoadData"]
+- ["C7FCWeiBo13FCResposeData", "ceshiArr"]
+- ["C7FCWeiBo13FCResposeData", "deinit"]
+- ["C7FCWeiBo13FCResposeData", "init"]
+- ["Ps8Hashable", "LoadData"]
+- ["Ps8Hashable", "ceshiArr"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Element"]
+- ["Ps13IndexableBase", "Element"]
+- ["Si", "deinit"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- ["CSo8NSObject", "LoadData"]
+- ["CSo8NSObject", "ceshiArr"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "LoadData"]
+- ["PSo16NSObjectProtocol", "ceshiArr"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- ["Ps8Sequence", "Element"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps9_Hashable", "LoadData"]
+- ["Ps9_Hashable", "ceshiArr"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "C7FCWeiBo13FCResposeData"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/FCWeiBo-Bridging-Header.h"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIColor+_Hex.h"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIButton+FCUIButton.h"
+- "/Users/fangchao/Downloads/Xcode8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "7a7b3022dacb98341086b4ebb038e927"

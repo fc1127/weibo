@@ -8,22 +8,23 @@
 
 import UIKit
 
-private var pageNum = 10
+private var pageNum = 20
+private var largernum = 0
 
 class FCHomeViewController: FCBaseViewController {
 
     fileprivate lazy var homeArr = [FCHomeM]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpUI()
+        setUpHomeUI()
+    
   }
-
         
 }
 //基类方法实现
 extension FCHomeViewController{
 //    适配iOS11 去掉头脚视图
-    func setUpUI() {
+    func setUpHomeUI() {
         tableview?.separatorStyle = .singleLine
         tableview?.sectionFooterHeight=1
         tableview?.sectionHeaderHeight=0
@@ -31,15 +32,17 @@ extension FCHomeViewController{
     }
     
     override func loadData() {
-        
         DispatchQueue.global().async {
             for i in 0..<pageNum {
+                largernum+=1
                 let m = FCHomeM()
-                m.name="Home" + String(i)
+                m.name="Home" + String(largernum)
                 m.age=i
-                self.homeArr.append(m)
+                isPull ? self.homeArr.append(m):self.homeArr.insert(m, at: 0)
+                
             }
             DispatchQueue.main.async {
+                isPull=false
                 self.tableview?.reloadData()
                 self.refresh?.endRefreshing()
             }
@@ -61,7 +64,7 @@ extension FCHomeViewController{
         return homeArr.count
     }
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -69,17 +72,5 @@ extension FCHomeViewController{
         cell.textLabel?.text=homeArr[indexPath.row].name
         return cell
     }
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let row = indexPath.row
-        let secitons = tableView.numberOfSections-1
-        print(secitons,indexPath.section)
-//        print(row)
-        if indexPath.section == secitons && row == tableView.numberOfRows(inSection: secitons)-1{
-                loadData()
-                print("最后一组 开始加载数据=====66666")
-            
-        }
-    }
-    
     
 }

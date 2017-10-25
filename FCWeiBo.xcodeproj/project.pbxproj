@@ -37,6 +37,7 @@
 		6C314BC31F8F436100CFBE03 /* toolbar_compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C314BB11F8F436100CFBE03 /* toolbar_compose@2x.png */; };
 		6C314BC41F8F436100CFBE03 /* toolbar_compose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C314BB21F8F436100CFBE03 /* toolbar_compose@3x.png */; };
 		6C314BC91F8F438300CFBE03 /* UIColor+_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */; };
+		6C86E58D1F9F82E4008E959F /* FCVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C86E58C1F9F82E4008E959F /* FCVisitView.swift */; };
 		6CCF8B431F9DD552004FB86C /* FCResposeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF8B421F9DD552004FB86C /* FCResposeData.swift */; };
 		6CCF8B451F9DE0A1004FB86C /* FCHomeM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF8B441F9DE0A1004FB86C /* FCHomeM.swift */; };
 		6CF100801F8F9F4A00B9F061 /* KitTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */; };
@@ -101,6 +102,7 @@
 		6C314BC61F8F438200CFBE03 /* FCWeiBo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FCWeiBo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6C314BC71F8F438300CFBE03 /* UIColor+_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+_Hex.h"; sourceTree = "<group>"; };
 		6C314BC81F8F438300CFBE03 /* UIColor+_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+_Hex.m"; sourceTree = "<group>"; };
+		6C86E58C1F9F82E4008E959F /* FCVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCVisitView.swift; sourceTree = "<group>"; };
 		6CCF8B421F9DD552004FB86C /* FCResposeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCResposeData.swift; sourceTree = "<group>"; };
 		6CCF8B441F9DE0A1004FB86C /* FCHomeM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCHomeM.swift; sourceTree = "<group>"; };
 		6CF1007F1F8F9F4A00B9F061 /* KitTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitTools.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				6C314B861F8E634500CFBE03 /* Model */,
 				6C314B871F8E634500CFBE03 /* View */,
 				6C314B8C1F8E634500CFBE03 /* ViewModel */,
+				6C86E58C1F9F82E4008E959F /* FCVisitView.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C314B9B1F8F2ABF00CFBE03 /* FCDiscoverViewController.swift in Sources */,
+				6C86E58D1F9F82E4008E959F /* FCVisitView.swift in Sources */,
 				6C314B9F1F8F2ADA00CFBE03 /* FCProfileViewController.swift in Sources */,
 				6C314B991F8F29C100CFBE03 /* FCHomeViewController.swift in Sources */,
 				6C314B941F8F149800CFBE03 /* FCBaseViewController.swift in Sources */,

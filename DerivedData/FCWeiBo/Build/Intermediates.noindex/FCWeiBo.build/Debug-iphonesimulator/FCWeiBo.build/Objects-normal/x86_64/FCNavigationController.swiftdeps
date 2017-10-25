@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FCNavigationController"
+provides-nominal:
+- "7FCWeiBo22FCNavigationControllerC"
+provides-member:
+- ["7FCWeiBo22FCNavigationControllerC", ""]
+- ["7FCWeiBo22FCNavigationControllerC", "pushViewController"]
+provides-dynamic-lookup:
+- "pushViewController"
+- "viewDidLoad"
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "FCNavigationController"
+- "UINavigationController"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "childViewControllers"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "hidesBottomBarWhenPushed"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "childViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesBottomBarWhenPushed"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "childViewControllers"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "hidesBottomBarWhenPushed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "childViewControllers"]
+- !private ["s9EquatableP", "hidesBottomBarWhenPushed"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "pushViewController"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["7FCWeiBo22FCNavigationControllerC", "Bool"]
+- ["7FCWeiBo22FCNavigationControllerC", "UIViewController"]
+- !private ["7FCWeiBo22FCNavigationControllerC", "childViewControllers"]
+- ["7FCWeiBo22FCNavigationControllerC", "deinit"]
+- ["7FCWeiBo22FCNavigationControllerC", "init"]
+- ["7FCWeiBo22FCNavigationControllerC", "pushViewController"]
+- ["7FCWeiBo22FCNavigationControllerC", "viewDidLoad"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "childViewControllers"]
+- !private ["s8HashableP", "hidesBottomBarWhenPushed"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "pushViewController"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["So8NSCodingP", "childViewControllers"]
+- !private ["So8NSCodingP", "hidesBottomBarWhenPushed"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "childViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "hidesBottomBarWhenPushed"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "childViewControllers"]
+- !private ["So8NSObjectC", "hidesBottomBarWhenPushed"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "pushViewController"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "childViewControllers"]
+- !private ["So16NSObjectProtocolP", "hidesBottomBarWhenPushed"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "pushViewController"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s8SequenceP", "count"]
+- !private ["So21UIAppearanceContainerP", "childViewControllers"]
+- !private ["So21UIAppearanceContainerP", "hidesBottomBarWhenPushed"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "childViewControllers"]
+- !private ["So18UIContentContainerP", "hidesBottomBarWhenPushed"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "childViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "hidesBottomBarWhenPushed"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So22UINavigationControllerC", "Bool"]
+- ["So22UINavigationControllerC", "UIViewController"]
+- !private ["So22UINavigationControllerC", "childViewControllers"]
+- ["So22UINavigationControllerC", "init"]
+- ["So22UINavigationControllerC", "pushViewController"]
+- ["So22UINavigationControllerC", "viewDidLoad"]
+- ["So22UINavigationControllerC", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "childViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "hidesBottomBarWhenPushed"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "childViewControllers"]
+- !private ["So11UIResponderC", "hidesBottomBarWhenPushed"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "pushViewController"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "childViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "hidesBottomBarWhenPushed"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "childViewControllers"]
+- !private ["So16UIStateRestoringP", "hidesBottomBarWhenPushed"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "childViewControllers"]
+- !private ["So18UITraitEnvironmentP", "hidesBottomBarWhenPushed"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "childViewControllers"]
+- !private ["So16UIViewControllerC", "hidesBottomBarWhenPushed"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "pushViewController"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "childViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesBottomBarWhenPushed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "7FCWeiBo22FCNavigationControllerC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/fangchao/Downloads/Xcode 9.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIButton+FCUIButton.h"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/FCWeiBo-Bridging-Header.h"
+- "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/UIColor+_Hex.h"
+interface-hash: "59789ba1342be494435cd0b0d1ad47f9"

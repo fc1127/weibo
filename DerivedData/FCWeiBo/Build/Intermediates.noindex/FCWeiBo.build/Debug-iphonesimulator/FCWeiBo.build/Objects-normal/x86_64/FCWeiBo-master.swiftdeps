@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "56fa9cdeef6fd25fc6f417f54facba12"
+build_time: [1508908053, 237687000]
+inputs:
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/FCDiscoverViewController.swift": [1507783486, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/FCVisitView.swift": [1508905723, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/Profile/FCProfileViewController.swift": [1507783514, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/Home/FCHomeViewController.swift": [1508854156, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/Main/FCBaseViewController.swift": [1508856555, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/KitTools.swift": [1508857805, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/Main/FCTarBarController.swift": [1508820554, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/Model/FCHomeM.swift": [1508747711, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/Main/FCNavigationController.swift": [1508231717, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/AppDelegate.swift": [1507777817, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/FCResposeData.swift": [1508767154, 0]
+  "/Users/fangchao/Desktop/FCWeiBo/FCWeiBo/Class/View/FCMessageViewController.swift": [1508854156, 0]

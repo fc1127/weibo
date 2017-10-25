@@ -22,4 +22,15 @@ extension UIButton{
     }
 }
 
+//extension UIImageView {
+//
+//    convenience init?(frame: CGRect,imgStr:String) {
+//        self.init()
+//        self.frame=frame
+//        self.image=UIImage(contentsOfFile: imgStr)
+//
+//    }
+//
+//}
+
 
