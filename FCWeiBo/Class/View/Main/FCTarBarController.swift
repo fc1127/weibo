@@ -15,11 +15,36 @@ class FCTarBarController: UITabBarController {
         
         setUpuiui()
         setupBtn()
-    
+        delegate=self
     }
     
     lazy var AddBtn : UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 0, height: 0), title: "", backimg: "")!
     
+    
+    
+}
+extension FCTarBarController:UITabBarControllerDelegate{
+    
+   
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+//        let indexvc = viewControllers?.index(of: viewController)
+//        print("已经切换到这个控制器了\(indexvc)")
+    }
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        
+        let indexVC : Int = (viewControllers?.index(of: viewController))!
+    
+//        这里是应该选择的控制器 需要和didselect 方法结合起来理解
+//        在这里做再次点击回到顶部的操作
+        if selectedIndex==0 && indexVC == selectedIndex{
+            let nav = viewControllers![0] as! UINavigationController
+            let vc = nav.viewControllers[0] as! FCHomeViewController
+            vc.tableview?.setContentOffset(CGPoint(x: 0, y: -64), animated: true)
+        }
+        return true //!viewController.isMember(of: UIViewController.self)
+    }
+  
+
     
     
 }

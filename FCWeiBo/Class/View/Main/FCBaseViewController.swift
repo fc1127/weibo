@@ -19,7 +19,7 @@ class FCBaseViewController: UIViewController {
 //    刷新控件
     var refresh : UIRefreshControl?
 //    是否是访客视图
-    var isVisitor = true
+    var isVisitor = false
 //    访客视图的信息字典
     var visitorInfo : [String:String]?
 

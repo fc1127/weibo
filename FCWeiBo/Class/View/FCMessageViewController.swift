@@ -45,6 +45,9 @@ extension FCMessageViewController {
 }
 extension FCMessageViewController {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return homeArrs.count
     }
